@@ -1,0 +1,301 @@
+{
+  "run_id": "run-1777425040962",
+  "job_index": 2,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 5,
+    "archetype": "calculator",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Un outil pour évaluer la faisabilité financière et temporelle des projets d'habitat écologique en France.",
+    "notes": "Estimez le budget et le calendrier pour des projets de construction ou de rénovation utilisant des matériaux en bois durables et écologiques.\nPrend en compte la taille du projet, les types de bois, les techniques d'assemblage, et les spécificités régionales pour fournir des estimations chiffrées.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "tool",
+      "calculator",
+      "generator"
+    ],
+    "forced_design_theme": "mechanical-botanical",
+    "forced_structure_preset": "precision-bento",
+    "site_idea_title": "Simulateur de Coûts et Délais pour Projets d'Éco-Construction en Bois",
+    "site_idea_summary": "Estimez le budget et le calendrier pour des projets de construction ou de rénovation utilisant des matériaux en bois durables et écologiques."
+  },
+  "site_spec": {
+    "slug": "simulateur-de-couts-et-delais-pour-projets-d-ec-eb7d79b9",
+    "theme": {
+      "name": "Mechanical Botanical",
+      "slug": "mechanical-botanical",
+      "eyebrow": "Organic Systems",
+      "family": "mechanical-botanical",
+      "moods": [
+        "organic",
+        "futuristic",
+        "balanced",
+        "fresh"
+      ],
+      "archetypes": [
+        "tool",
+        "generator",
+        "calculator"
+      ],
+      "niches": [
+        "eco tools",
+        "wellness tools",
+        "sustainability",
+        "travel tools",
+        "consumer utility"
+      ],
+      "keywords": [
+        "organic",
+        "tech",
+        "botanical",
+        "iridescent",
+        "fresh"
+      ],
+      "token_index": [
+        "balanced",
+        "botanical",
+        "calculator",
+        "consumer",
+        "eco",
+        "fresh",
+        "futuristic",
+        "generator",
+        "iridescent",
+        "mechanical",
+        "organic",
+        "sustainability",
+        "systems",
+        "tech",
+        "tool",
+        "tools",
+        "travel",
+        "utility",
+        "wellness"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap",
+      "display_font": "\"Sora\", sans-serif",
+      "body_font": "\"Manrope\", sans-serif",
+      "layout": "split",
+      "card_style": "glass",
+      "button_style": "gradient",
+      "decor_style": "orbs",
+      "hero_template": "1.08fr 0.92fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 3,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "22px",
+      "palette": {
+        "bg": "linear-gradient(145deg, #081c15 0%, #1b4332 42%, #c7f9cc 100%)",
+        "surface": "rgba(8, 28, 21, 0.74)",
+        "surface_border": "rgba(128,237,153,0.18)",
+        "text": "#f1fff4",
+        "muted": "#b7e4c7",
+        "accent": "#80ed99",
+        "accent_alt": "#72ddf7",
+        "hero_glow": "rgba(128, 237, 153, 0.18)",
+        "button_text": "#062012",
+        "panel_alt": "rgba(255,255,255,0.04)",
+        "shadow": "0 30px 88px rgba(4, 12, 8, 0.34)",
+        "input_fill": "rgba(255,255,255,0.05)"
+      }
+    },
+    "structure": {
+      "name": "Precision Bento",
+      "slug": "precision-bento",
+      "hero_variant": "split",
+      "proof_variant": "metrics",
+      "section_order": [
+        "features",
+        "proof",
+        "seo",
+        "faq"
+      ],
+      "feature_columns": 4,
+      "faq_columns": 3,
+      "family": "precision-bento",
+      "moods": [
+        "clean",
+        "modular",
+        "premium"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "saas",
+        "admin",
+        "compliance",
+        "analysis"
+      ],
+      "keywords": [
+        "bento",
+        "precision",
+        "cards",
+        "operator"
+      ],
+      "token_index": [
+        "admin",
+        "analysis",
+        "bento",
+        "calculator",
+        "cards",
+        "clean",
+        "compliance",
+        "faq",
+        "features",
+        "generator",
+        "metrics",
+        "modular",
+        "operator",
+        "precision",
+        "premium",
+        "proof",
+        "saas",
+        "seo",
+        "split",
+        "tool"
+      ]
+    },
+    "render_direction": "atlas-report",
+    "render_direction_name": "Atlas Report",
+    "page_blueprint": "dossier-rail",
+    "page_blueprint_name": "Dossier Rail",
+    "title": "Simulateur de Coûts et Délais pour Projets d'Éco-Construction en Bois",
+    "tagline": "Votre Projet en Quelques Clics",
+    "description": "Estimez le budget et le calendrier pour des projets de construction ou de rénovation utilisant des matériaux en bois durables et écologiques en France.",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Estimer Mon Projet",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "amount",
+        "label": "Montant de base",
+        "type": "number",
+        "placeholder": "7500",
+        "weight": 1.0
+      },
+      {
+        "id": "duration",
+        "label": "Durée estimée",
+        "type": "number",
+        "placeholder": "12",
+        "weight": 0.42
+      },
+      {
+        "id": "plan",
+        "label": "Niveau de service",
+        "type": "select",
+        "options": [
+          {
+            "label": "Essentiel",
+            "value": 1.0
+          },
+          {
+            "label": "Performance",
+            "value": 1.18
+          },
+          {
+            "label": "Premium",
+            "value": 1.34
+          }
+        ],
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Atlas Report",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Atlas Report",
+      "Estimer Mon Projet",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "EUR",
+    "runtime_mode": "generic_calculator",
+    "page_variant": "console",
+    "faq_topic": "Simulateur de Coûts et Délais pour Projets d'Éco-Construction en Bois",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Simulateur de Coûts et Délais pour Projets d'Éco-Construction en Bois ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Simulateur de Coûts et Délais pour Projets d'Éco-Construction en Bois et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Simulateur de Coûts et Délais pour Projets d&#x27;Éco-Construction en Bois | Votre Projet en Quelques Clics</title>\n    <meta name=\"description\" content=\"Estimez le budget et le calendrier pour des projets de construction ou de rénovation utilisant des matériaux en bois durables et écologiques en France.\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono:wght@400&display=swap');\n\n        :root {\n            --primary-color: #3f6f3f; /* Deep green */\n            --secondary-color: #8ddaea; /* Light blue, for accents */\n            --text-color: #333;\n            --background-color: #f0f8f0;\n            --panel-background: #ffffff;\n            --border-color: #e0e0e0;\n            --shadow-color: rgba(0, 0, 0, 0.05);\n            --font-display: 'Montserrat', sans-serif;\n            --font-body: 'Roboto Mono', monospace;\n        }\n\n        body {\n            font-family: var(--font-body);\n            color: var(--text-color);\n            background-color: var(--background-color);\n            margin: 0;\n            padding: 0;\n            line-height: 1.6;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            padding-top: 40px;\n            box-sizing: border-box;\n        }\n\n        h1, h2, h3 {\n            font-family: var(--font-display);\n            color: var(--primary-color);\n        }\n\n        h1 {\n            font-size: 2.8em;\n            text-align: center;\n            margin-bottom: 20px;\n            color: var(--primary-color);\n            max-width: 900px;\n        }\n\n        header p {\n            text-align: center;\n            font-size: 1.1em;\n            margin-bottom: 40px;\n            max-width: 800px;\n        }\n\n        .container {\n            width: 90%;\n            max-width: 1000px;\n            margin: 0 auto;\n            display: grid;\n            grid-template-columns: 1fr;\n            gap: 30px;\n        }\n\n        .panel {\n            background-color: var(--panel-background);\n            padding: 30px;\n            border-radius: 12px;\n            box-shadow: 0 4px 15px var(--shadow-color);\n            border: 1px solid var(--border-color);\n        }\n\n        .panel.grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            gap: 20px;\n        }\n\n        label {\n            display: block;\n            margin-bottom: 8px;\n            font-weight: bold;\n            color: var(--primary-color);\n        }\n\n        input[type=\"number\"],\n        select,\n        textarea {\n            width: calc(100% - 20px);\n            padding: 12px;\n            margin-bottom: 20px;\n            border: 1px solid var(--border-color);\n            border-radius: 6px;\n            font-family: var(--font-body);\n            font-size: 1em;\n            box-sizing: border-box;\n            background-color: #f9fdf9;\n        }\n\n        input[type=\"radio\"] {\n            margin-right: 8px;\n        }\n\n        .radio-group label {\n            display: inline-block;\n            margin-right: 15px;\n            font-weight: normal;\n        }\n\n        button {\n            background-color: var(--primary-color);\n            color: white;\n            padding: 15px 30px;\n            border: none;\n            border-radius: 8px;\n            font-size: 1.1em;\n            cursor: pointer;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n            display: block;\n            width: fit-content;\n            margin-top: 20px;\n            font-family: var(--font-display);\n        }\n\n        button:hover {\n            background-color: #5a8a5a;\n            transform: translateY(-2px);\n        }\n\n        #tool-result {\n            margin-top: 30px;\n            padding: 25px;\n            background-color: #e6f7e6; /* Lighter green background for results */\n            border-left: 5px solid var(--primary-color);\n            border-radius: 12px;\n            font-size: 1.1em;\n            color: var(--text-color);\n            line-height: 1.8;\n        }\n\n        #tool-result h3 {\n            color: var(--primary-color);\n            margin-top: 0;\n            font-size: 1.6em;\n        }\n\n        #tool-result p {\n            margin-bottom: 10px;\n        }\n\n        .seo-section {\n            width: 90%;\n            max-width: 1000px;\n            margin-top: 60px;\n            padding: 30px;\n            background-color: var(--panel-background);\n            border-radius: 12px;\n            box-shadow: 0 4px 15px var(--shadow-color);\n            border: 1px solid var(--border-color);\n        }\n\n        .seo-section h2 {\n            font-size: 2em;\n            margin-bottom: 20px;\n            text-align: center;\n        }\n\n        .seo-section p {\n            margin-bottom: 1em;\n            text-align: justify;\n        }\n\n        .seo-section ul {\n            list-style: disc inside;\n            padding-left: 20px;\n        }\n\n        .seo-section li {\n            margin-bottom: 0.5em;\n        }\n\n        @media (min-width: 768px) {\n            .container {\n                grid-template-columns: 2fr 1fr;\n            }\n            .panel:nth-child(even) {\n                grid-column: 2 / 3;\n            }\n            .panel:nth-child(odd) {\n                grid-column: 1 / 2;\n            }\n            .panel.full-width {\n                grid-column: 1 / -1;\n            }\n        }\n        @media (max-width: 767px) {\n            h1 { font-size: 2em; }\n            header p { font-size: 1em; }\n            .panel { padding: 20px; }\n            button { width: 100%; text-align: center; }\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://simulateur-de-couts-et-delais-pour-projets-d-ec-eb7d79b9.onrender.com\">\n    <meta property=\"og:title\" content=\"Simulateur de Coûts et Délais pour Projets d&#x27;Éco-Construction en Bois\">\n    <meta property=\"og:description\" content=\"Estimez le budget et le calendrier pour des projets de construction ou de rénovation utilisant des matériaux en bois durables et écologiques en France.\">\n    <meta property=\"og:url\" content=\"https://simulateur-de-couts-et-delais-pour-projets-d-ec-eb7d79b9.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Simulateur de Coûts et Délais pour Projets d'Éco-Construction en Bois\", \"description\": \"Estimez le budget et le calendrier pour des projets de construction ou de rénovation utilisant des matériaux en bois durables et écologiques en France.\", \"url\": \"https://simulateur-de-couts-et-delais-pour-projets-d-ec-eb7d79b9.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"simulateur-de-couts-et-delais-pour-projets-d-ec-eb7d79b9\" data-runtime-mode=\"generic_calculator\">\n    <header>\n        <h1>Simulateur de Coûts et Délais pour Projets d'Éco-Construction en Bois</h1>\n        <p>Estimez le budget et le calendrier pour vos projets de construction ou de rénovation utilisant des matériaux en bois durables et écologiques en France. Obtenez une vision claire avant de vous lancer.</p>\n    </header>\n\n    <div class=\"container\">\n        <div class=\"panel\">\n            <h2>Votre Projet en Quelques Clics</h2>\n            <p>Remplissez les informations ci-dessous pour obtenir une estimation personnalisée.</p>\n            <form id=\"tool-form\">\n                <label for=\"surface\">Surface Totale du Projet (m²)</label>\n                <input type=\"number\" id=\"surface\" name=\"surface\" min=\"10\" max=\"5000\" value=\"100\" required>\n\n                <label for=\"typeProjet\">Type de Projet</label>\n                <select id=\"typeProjet\" name=\"typeProjet\" required>\n                    <option value=\"construction\">Nouvelle Construction</option>\n                    <option value=\"renovationLourde\">Rénovation Lourde</option>\n                    <option value=\"extension\">Extension</option>\n                    <option value=\"amenagementInterieur\">Aménagement Intérieur</option>\n                </select>\n\n                <label for=\"typeBois\">Type de Bois Principal</label>\n                <select id=\"typeBois\" name=\"typeBois\" required>\n                    <option value=\"pinDouglas\">Pin Douglas (local, bonne résistance)</option>\n                    <option value=\"epicea\">Épicéa (léger, polyvalent)</option>\n                    <option value=\"chataignier\">Châtaignier (durable, imputrescible)</option>\n                    <option value=\"melze\">Mélèze (résistant, esthétique)</option>\n                    <option value=\"chene\">Chêne (noble, très durable)</option>\n                </select>\n\n                <label for=\"complexite\">Complexité Architecturale</label>\n                <select id=\"complexite\" name=\"complexite\" required>\n                    <option value=\"simple\">Simple (formes classiques)</option>\n                    <option value=\"standard\">Standard (quelques spécificités)</option>\n                    <option value=\"complexe\">Complexe (multiples niveaux, formes audacieuses)</option>\n                </select>\n\n                <label>Technique d'Assemblage Préférée</label>\n                <div class=\"radio-group\">\n                    <input type=\"radio\" id=\"assemblageTraditionnel\" name=\"assemblage\" value=\"traditionnel\" checked>\n                    <label for=\"assemblageTraditionnel\">Traditionnel (tenon-mortaise, queue d'aronde)</label><br>\n                    <input type=\"radio\" id=\"assemblageModerne\" name=\"assemblage\" value=\"moderne\">\n                    <label for=\"assemblageModerne\">Moderne (vis, connecteurs métalliques)</label><br>\n                    <input type=\"radio\" id=\"assemblageMixte\" name=\"assemblage\" value=\"mixte\">\n                    <label for=\"assemblageMixte\">Mixte (optimisation coûts/esthétique)</label>\n                </div>\n                <br>\n\n                <label for=\"region\">Région du Projet</label>\n                <select id=\"region\" name=\"region\" required>\n                    <option value=\"ileDeFrance\">Île-de-France</option>\n                    <option value=\"nouvelleAquitaine\">Nouvelle-Aquitaine</option>\n                    <option value=\"auvergneRhoneAlpes\">Auvergne-Rhône-Alpes</option>\n                    <option value=\"bretagne\">Bretagne</option>\n                    <option value=\"occitanie\">Occitanie</option>\n                    <option value=\"autres\">Autres régions</option>\n                </select>\n\n                <button type=\"submit\" id=\"tool-submit\">Estimer Mon Projet</button>\n            </form>\n        </div>\n\n        <div class=\"panel full-width\">\n            <h2>Comprendre Votre Éco-Projet</h2>\n            <p>L'habitat écologique en bois offre une empreinte carbone réduite, une excellente isolation et une atmosphère saine. Nos estimations intègrent les spécificités françaises pour vous offrir la meilleure projection.</p>\n            <ul>\n                <li><strong>Matériaux Durables :</strong> Utilisation de bois certifié (PEFC/FSC) issu de forêts gérées durablement.</li>\n                <li><strong>Performance Énergétique :</strong> Les constructions bois sont naturellement performantes, favorisant les standards passifs.</li>\n                <li><strong>Impact Local :</strong> Valorisation des filières courtes et des essences régionales.</li>\n                <li><strong>Expertise Française :</strong> Prise en compte des normes thermiques (RE2020) et parasismiques en vigueur.</li>\n            </ul>\n        </div>\n\n        <div id=\"tool-result\" class=\"panel full-width\" style=\"display: none;\">\n            <h3 id=\"result-headline\">Vos Estimations Personnalisées</h3>\n            <p id=\"result-budget\"></p>\n            <p id=\"result-delai\"></p>\n            <p id=\"result-note\"></p>\n        </div>\n    </div>\n\n    <section class=\"seo-section\">\n        <h2>Simulateur de Construction Bois : Votre Guide pour un Projet Écologique en France</h2>\n        <p>Vous rêvez d'une maison écologique en bois ou d'une extension durable ? Notre simulateur en ligne est l'outil indispensable pour planifier votre projet en France. Que vous envisagiez une construction neuve, une rénovation lourde ou un simple aménagement intérieur avec des essences locales comme le Pin Douglas ou le Châtaignier, notre plateforme vous aide à anticiper les coûts et les délais.</p>\n        <p>Comprendre le budget et le calendrier d'un projet d'éco-construction en bois est crucial. Notre calculateur prend en compte la surface de votre future maison bois, le type de bois choisi (Épicéa, Mélèze, Chêne), la complexité architecturale de votre ouvrage ainsi que les techniques d'assemblage (traditionnel, moderne ou mixte). Nous intégrons également les spécificités régionales, comme les coûts de main-d'œuvre et la disponibilité des matériaux en Île-de-France, en Nouvelle-Aquitaine ou en Auvergne-Rhône-Alpes, pour une estimation au plus juste.</p>\n        <p>L'éco-construction en bois représente un investissement dans l'avenir. Elle garantit une excellente performance thermique, une empreinte carbone minimale et un cadre de vie sain. Utilisez notre simulateur pour obtenir une première approche chiffrée, vous permettant de dialoguer plus sereinement avec les architectes et artisans spécialisés dans la construction écologique. Découvrez comment optimiser votre budget pour une maison bois clé en main ou un projet auto-construit.</p>\n        <h3>Pourquoi choisir le bois pour votre habitat ?</h3>\n        <ul>\n            <li><strong>Durabilité et longévité :</strong> Le bois, s'il est bien traité et entretenu, est un matériau extrêmement résistant.</li>\n            <li><strong>Isolation naturelle :</strong> Ses propriétés isolantes réduisent considérablement les besoins en chauffage et climatisation.</li>\n            <li><strong>Rapidité de construction :</strong> Les structures bois permettent souvent des chantiers plus courts.</li>\n            <li><strong>Esthétique et confort :</strong> Le bois offre une ambiance chaleureuse et un design personnalisable.</li>\n            <li><strong>Faible impact environnemental :</strong> Matériau renouvelable, capteur de CO2, et souvent issu de filières locales.</li>\n        </ul>\n        <p>Lancez-vous dans votre projet de maison ou rénovation écologique en bois avec confiance grâce à notre outil d'estimation. Une étude de faisabilité personnalisée à portée de clic.</p>\n    </section>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const surface = parseFloat(document.getElementById('surface').value);\n            const typeProjet = document.getElementById('typeProjet').value;\n            const typeBois = document.getElementById('typeBois').value;\n            const complexite = document.getElementById('complexite').value;\n            const assemblage = document.querySelector('input[name=\"assemblage\"]:checked').value;\n            const region = document.getElementById('region').value;\n\n            let coutMoyenParM2 = 0;\n            let delaiMoyenParM2 = 0; // jours par m² pour la structure bois principale\n\n            // Base costs per m² for construction type (structure + enveloppe)\n            switch (typeProjet) {\n                case 'construction':\n                    coutMoyenParM2 = 1800; // Base pour nouvelle construction bois\n                    delaiMoyenParM2 = 0.8;\n                    break;\n                case 'renovationLourde':\n                    coutMoyenParM2 = 1400; // Rénovation lourde avec extension/modification structurelle\n                    delaiMoyenParM2 = 0.7;\n                    break;\n                case 'extension':\n                    coutMoyenParM2 = 2000; // Généralement plus cher au m² car impact sur l'existant\n                    delaiMoyenParM2 = 1.0;\n                    break;\n                case 'amenagementInterieur':\n                    coutMoyenParM2 = 800; // Aménagement plus léger, mobilier, cloisons bois\n                    delaiMoyenParM2 = 0.5;\n                    break;\n            }\n\n            // Adjustments for wood type\n            switch (typeBois) {\n                case 'pinDouglas':\n                    coutMoyenParM2 *= 1.0;\n                    delaiMoyenParM2 *= 1.0;\n                    break;\n                case 'epicea':\n                    coutMoyenParM2 *= 0.95; // Légèrement moins cher\n                    delaiMoyenParM2 *= 0.95;\n                    break;\n                case 'chataignier':\n                    coutMoyenParM2 *= 1.1; // Plus cher, durable\n                    delaiMoyenParM2 *= 1.05;\n                    break;\n                case 'melze':\n                    coutMoyenParM2 *= 1.15; // Plus cher, esthétique\n                    delaiMoyenParM2 *= 1.1;\n                    break;\n                case 'chene':\n                    coutMoyenParM2 *= 1.3; // Très cher, noble\n                    delaiMoyenParM2 *= 1.2;\n                    break;\n            }\n\n            // Adjustments for architectural complexity\n            switch (complexite) {\n                case 'simple':\n                    coutMoyenParM2 *= 0.9;\n                    delaiMoyenParM2 *= 0.9;\n                    break;\n                case 'standard':\n                    coutMoyenParM2 *= 1.0;\n                    delaiMoyenParM2 *= 1.0;\n                    break;\n                case 'complexe':\n                    coutMoyenParM2 *= 1.25;\n                    delaiMoyenParM2 *= 1.3;\n                    break;\n            }\n\n            // Adjustments for assembly technique\n            switch (assemblage) {\n                case 'traditionnel':\n                    coutMoyenParM2 *= 1.15; // Plus de main d'œuvre qualifiée\n                    delaiMoyenParM2 *= 1.2;\n                    break;\n                case 'moderne':\n                    coutMoyenParM2 *= 0.95; // Optimisation par connecteurs standardisés\n                    delaiMoyenParM2 *= 0.9;\n                    break;\n                case 'mixte':\n                    coutMoyenParM2 *= 1.05;\n                    delaiMoyenParM2 *= 1.05;\n                    break;\n            }\n\n            // Regional adjustments (cost of living, availability, etc.)\n            switch (region) {\n                case 'ileDeFrance':\n                    coutMoyenParM2 *= 1.2;\n                    delaiMoyenParM2 *= 1.1;\n                    break;\n                case 'nouvelleAquitaine':\n                    coutMoyenParM2 *= 1.0;\n                    delaiMoyenParM2 *= 1.0;\n                    break;\n                case 'auvergneRhoneAlpes':\n                    coutMoyenParM2 *= 1.05;\n                    delaiMoyenParM2 *= 1.05;\n                    break;\n                case 'bretagne':\n                    coutMoyenParM2 *= 0.98;\n                    delaiMoyenParM2 *= 0.98;\n                    break;\n                case 'occitanie':\n                    coutMoyenParM2 *= 1.03;\n                    delaiMoyenParM2 *= 1.03;\n                    break;\n                case 'autres':\n                    coutMoyenParM2 *= 1.0;\n                    delaiMoyenParM2 *= 1.0;\n                    break;\n            }\n\n            const coutTotal = surface * coutMoyenParM2;\n            const delaiTotalJours = surface * delaiMoyenParM2; // Total days\n            const delaiTotalMois = Math.round(delaiTotalJours / 22); // Assuming 22 working days per month\n\n            const resultBudget = `Budget estimé : ${coutTotal.toLocaleString('fr-FR', { style: 'currency', currency: 'EUR', minimumFractionDigits: 0, maximumFractionDigits: 0 })} (HT)`;\n            const resultDelai = `Durée estimée des travaux (structure bois) : ${delaiTotalMois} mois`;\n            const resultNote = `Note : Cette estimation est indicative et ne remplace pas un devis détaillé d'un professionnel. Elle inclut la structure bois et l'enveloppe, mais pas les finitions complètes, VRD, ou taxes.`\n\n            document.getElementById('result-budget').textContent = resultBudget;\n            document.getElementById('result-delai').textContent = resultDelai;\n            document.getElementById('result-note').textContent = resultNote;\n            document.getElementById('tool-result').style.display = 'block';\n\n            document.getElementById('tool-result').scrollIntoView({ behavior: 'smooth' });\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.setAttribute(\"rel\", \"nofollow sponsored noopener noreferrer\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\", \"noopener\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
