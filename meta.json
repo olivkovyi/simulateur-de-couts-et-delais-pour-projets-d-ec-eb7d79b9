@@ -1,0 +1,40 @@
+{
+  "name": "Simulateur de Coûts et Délais pour Projets d'Éco-Construction en Bois",
+  "description": "Estimez le budget et le calendrier pour des projets de construction ou de rénovation utilisant des matériaux en bois durables et écologiques en France.",
+  "theme": "calculator",
+  "design_theme": "mechanical-botanical",
+  "structure_preset": "precision-bento",
+  "render_direction": "atlas-report",
+  "page_blueprint": "dossier-rail",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://simulateur-de-couts-et-delais-pour-projets-d-ec-eb7d79b9.onrender.com",
+  "created": "2026-04-29T01:12:58.666161+00:00",
+  "owner_user_id": "user-1774822953462",
+  "owner_username": "admin",
+  "owner_display_name": "Administrator",
+  "status": "generated",
+  "run_id": "run-1777425040962",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: split",
+    "Proof module: metrics",
+    "Design theme: Mechanical Botanical",
+    "Render direction: Atlas Report",
+    "Page blueprint: Dossier Rail",
+    "Runtime mode: generic_calculator",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
